@@ -9,6 +9,8 @@ import SwiftUI
 import MapKit
 
 struct ContentView: View {
+    typealias Body = <#type#>
+    
     class ViewController: UIViewController, MKMapViewDelegate {
 
         // storyboardにMapViewを置き、それと接続する
