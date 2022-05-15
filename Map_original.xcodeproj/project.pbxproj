@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D8DD3612830C85D00CEDB0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8DD3602830C85D00CEDB0E /* AppDelegate.swift */; };
 		2DB3944C281E298700822927 /* Map_originalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB3943C281E298400822927 /* Map_originalApp.swift */; };
 		2DB3944E281E298700822927 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB3943D281E298400822927 /* ContentView.swift */; };
 		2DB39450281E298700822927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3943E281E298700822927 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D8DD3602830C85D00CEDB0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DB3943C281E298400822927 /* Map_originalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map_originalApp.swift; sourceTree = "<group>"; };
 		2DB3943D281E298400822927 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2DB3943E281E298700822927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +46,7 @@
 				2DB3943C281E298400822927 /* Map_originalApp.swift */,
 				2DB3943D281E298400822927 /* ContentView.swift */,
 				2DB3943E281E298700822927 /* Assets.xcassets */,
+				2D8DD3602830C85D00CEDB0E /* AppDelegate.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D8DD3612830C85D00CEDB0E /* AppDelegate.swift in Sources */,
 				2DB3944E281E298700822927 /* ContentView.swift in Sources */,
 				2DB3944C281E298700822927 /* Map_originalApp.swift in Sources */,
 			);
